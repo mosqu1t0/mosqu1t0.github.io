@@ -1,1 +1,0 @@
-import{_ as e,c as t,o as a,a as o}from"./app.8633275c.js";const f='{"title":"\u5173\u4E8E","description":"","frontmatter":{"title":"\u5173\u4E8E"},"headers":[],"relativePath":"guide/about.md","lastUpdated":1654252677000}',r={},s=o("",5),n=[s];function _(c,p,i,d,l,h){return a(),t("div",null,n)}var m=e(r,[["render",_]]);export{f as __pageData,m as default};
