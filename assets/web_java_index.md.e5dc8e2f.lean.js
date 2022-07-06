@@ -1,1 +1,0 @@
-import{_ as a,c as l,o,a as t}from"./app.d9023a6b.js";const b='{"title":"Java","description":"","frontmatter":{},"headers":[],"relativePath":"web/java/index.md","lastUpdated":1657082126000}',e={},i=t("",28),v=[i];function p(J,c,r,s,u,n){return o(),l("div",null,v)}var d=a(e,[["render",p]]);export{b as __pageData,d as default};
