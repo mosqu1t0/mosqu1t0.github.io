@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>类 | 📖Mosquito&#39;s Note📖</title>
+    <meta name="generator" content="VuePress 1.9.7">
+    <link rel="icon" href="https://avatars.githubusercontent.com/u/94043894">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/2.10.0/github-markdown.min.css">
+    <meta name="description" content="个人笔记">
+    
+    <link rel="preload" href="/assets/css/0.styles.ff729ae9.css" as="style"><link rel="preload" href="/assets/js/app.7c6adec4.js" as="script"><link rel="preload" href="/assets/js/2.61776e55.js" as="script"><link rel="preload" href="/assets/js/99.7497b5d3.js" as="script"><link rel="prefetch" href="/assets/js/10.a473ff6c.js"><link rel="prefetch" href="/assets/js/100.d5d531c7.js"><link rel="prefetch" href="/assets/js/101.49fa34be.js"><link rel="prefetch" href="/assets/js/102.32303507.js"><link rel="prefetch" href="/assets/js/11.4984b590.js"><link rel="prefetch" href="/assets/js/12.4a77fbd0.js"><link rel="prefetch" href="/assets/js/13.a50e7b37.js"><link rel="prefetch" href="/assets/js/14.f54c910b.js"><link rel="prefetch" href="/assets/js/15.0c0ae5ae.js"><link rel="prefetch" href="/assets/js/16.eca58129.js"><link rel="prefetch" href="/assets/js/17.751b4739.js"><link rel="prefetch" href="/assets/js/18.1d7e3489.js"><link rel="prefetch" href="/assets/js/19.adde455b.js"><link rel="prefetch" href="/assets/js/20.72ff9e8c.js"><link rel="prefetch" href="/assets/js/21.31801fba.js"><link rel="prefetch" href="/assets/js/22.f2819c95.js"><link rel="prefetch" href="/assets/js/23.1f1edf61.js"><link rel="prefetch" href="/assets/js/24.623a626f.js"><link rel="prefetch" href="/assets/js/25.73e031b9.js"><link rel="prefetch" href="/assets/js/26.0d42d4af.js"><link rel="prefetch" href="/assets/js/27.5c32778b.js"><link rel="prefetch" href="/assets/js/28.732f7b1f.js"><link rel="prefetch" href="/assets/js/29.b234041b.js"><link rel="prefetch" href="/assets/js/3.357dd925.js"><link rel="prefetch" href="/assets/js/30.e1411499.js"><link rel="prefetch" href="/assets/js/31.11de95f4.js"><link rel="prefetch" href="/assets/js/32.9a734fca.js"><link rel="prefetch" href="/assets/js/33.82dc6637.js"><link rel="prefetch" href="/assets/js/34.d5cff1a6.js"><link rel="prefetch" href="/assets/js/35.fe26d1ab.js"><link rel="prefetch" href="/assets/js/36.c2c3a7fd.js"><link rel="prefetch" href="/assets/js/37.77dc6eb9.js"><link rel="prefetch" href="/assets/js/38.60f25eed.js"><link rel="prefetch" href="/assets/js/39.76fc11d5.js"><link rel="prefetch" href="/assets/js/4.eb3ecdec.js"><link rel="prefetch" href="/assets/js/40.f258f2e7.js"><link rel="prefetch" href="/assets/js/41.72a15830.js"><link rel="prefetch" href="/assets/js/42.b042034e.js"><link rel="prefetch" href="/assets/js/43.c678bb4b.js"><link rel="prefetch" href="/assets/js/44.1d6d4798.js"><link rel="prefetch" href="/assets/js/45.8ac06add.js"><link rel="prefetch" href="/assets/js/46.a4fa241a.js"><link rel="prefetch" href="/assets/js/47.348e5c37.js"><link rel="prefetch" href="/assets/js/48.74dd74de.js"><link rel="prefetch" href="/assets/js/49.e2d05f92.js"><link rel="prefetch" href="/assets/js/5.2e15fdee.js"><link rel="prefetch" href="/assets/js/50.681f14b0.js"><link rel="prefetch" href="/assets/js/51.0b37e04e.js"><link rel="prefetch" href="/assets/js/52.fd169cc1.js"><link rel="prefetch" href="/assets/js/53.c60abdcc.js"><link rel="prefetch" href="/assets/js/54.150ff505.js"><link rel="prefetch" href="/assets/js/55.df6d5320.js"><link rel="prefetch" href="/assets/js/56.d8b3d267.js"><link rel="prefetch" href="/assets/js/57.befe04d0.js"><link rel="prefetch" href="/assets/js/58.89a5616b.js"><link rel="prefetch" href="/assets/js/59.e55a59d4.js"><link rel="prefetch" href="/assets/js/6.d0bfce25.js"><link rel="prefetch" href="/assets/js/60.4f7bb55c.js"><link rel="prefetch" href="/assets/js/61.f321f95f.js"><link rel="prefetch" href="/assets/js/62.de77fb88.js"><link rel="prefetch" href="/assets/js/63.7d5ca2b4.js"><link rel="prefetch" href="/assets/js/64.9edc1521.js"><link rel="prefetch" href="/assets/js/65.0844b8ba.js"><link rel="prefetch" href="/assets/js/66.283bb02d.js"><link rel="prefetch" href="/assets/js/67.ffc54622.js"><link rel="prefetch" href="/assets/js/68.62389c3f.js"><link rel="prefetch" href="/assets/js/69.5fecfe37.js"><link rel="prefetch" href="/assets/js/7.0090b428.js"><link rel="prefetch" href="/assets/js/70.6c5b41cf.js"><link rel="prefetch" href="/assets/js/71.ac67b79f.js"><link rel="prefetch" href="/assets/js/72.6d284722.js"><link rel="prefetch" href="/assets/js/73.7fbf6022.js"><link rel="prefetch" href="/assets/js/74.b0805cdc.js"><link rel="prefetch" href="/assets/js/75.829d008c.js"><link rel="prefetch" href="/assets/js/76.892c29e6.js"><link rel="prefetch" href="/assets/js/77.cd67fb50.js"><link rel="prefetch" href="/assets/js/78.0e75db65.js"><link rel="prefetch" href="/assets/js/79.c0cb6b0e.js"><link rel="prefetch" href="/assets/js/8.30a5daa8.js"><link rel="prefetch" href="/assets/js/80.ca983090.js"><link rel="prefetch" href="/assets/js/81.60fc3490.js"><link rel="prefetch" href="/assets/js/82.38a17ae3.js"><link rel="prefetch" href="/assets/js/83.2219b0c8.js"><link rel="prefetch" href="/assets/js/84.ef68be1a.js"><link rel="prefetch" href="/assets/js/85.bc7af343.js"><link rel="prefetch" href="/assets/js/86.0441291a.js"><link rel="prefetch" href="/assets/js/87.23cfe471.js"><link rel="prefetch" href="/assets/js/88.56b71bd3.js"><link rel="prefetch" href="/assets/js/89.2f254abc.js"><link rel="prefetch" href="/assets/js/9.12c5a99f.js"><link rel="prefetch" href="/assets/js/90.b50af205.js"><link rel="prefetch" href="/assets/js/91.51e809f7.js"><link rel="prefetch" href="/assets/js/92.1ac20c7d.js"><link rel="prefetch" href="/assets/js/93.881a634e.js"><link rel="prefetch" href="/assets/js/94.52f38d96.js"><link rel="prefetch" href="/assets/js/95.2011fb4b.js"><link rel="prefetch" href="/assets/js/96.72315a4e.js"><link rel="prefetch" href="/assets/js/97.599a8c83.js"><link rel="prefetch" href="/assets/js/98.933c33d7.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.ff729ae9.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><!----> <span class="site-name">📖Mosquito's Note📖</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/guide/" class="nav-link">
+    简介
+  </a></div><div class="nav-item"><a href="/algorithm/" class="nav-link">
+    算法
+  </a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Web" class="dropdown-title"><span class="title">Web</span> <span class="arrow down"></span></button> <button type="button" aria-label="Web" class="mobile-dropdown-title"><span class="title">Web</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/web/html/" class="nav-link">
+    Html
+  </a></li><li class="dropdown-item"><!----> <a href="/web/css/" class="nav-link">
+    Css
+  </a></li><li class="dropdown-item"><!----> <a href="/web/js/" class="nav-link router-link-active">
+    JavaScript
+  </a></li><li class="dropdown-item"><!----> <a href="/web/java/" class="nav-link">
+    Java
+  </a></li><li class="dropdown-item"><!----> <a href="/web/database/mysql/" class="nav-link">
+    Mysql
+  </a></li></ul></div></div><div class="nav-item"><a href="/cs/" class="nav-link">
+    Cs
+  </a></div><div class="nav-item"><a href="/others/" class="nav-link">
+    其他
+  </a></div> <a href="https://github.com/mosqu1t0/Note" target="_blank" rel="noopener noreferrer" class="repo-link">
+      GitHub
+      <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/guide/" class="nav-link">
+    简介
+  </a></div><div class="nav-item"><a href="/algorithm/" class="nav-link">
+    算法
+  </a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Web" class="dropdown-title"><span class="title">Web</span> <span class="arrow down"></span></button> <button type="button" aria-label="Web" class="mobile-dropdown-title"><span class="title">Web</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/web/html/" class="nav-link">
+    Html
+  </a></li><li class="dropdown-item"><!----> <a href="/web/css/" class="nav-link">
+    Css
+  </a></li><li class="dropdown-item"><!----> <a href="/web/js/" class="nav-link router-link-active">
+    JavaScript
+  </a></li><li class="dropdown-item"><!----> <a href="/web/java/" class="nav-link">
+    Java
+  </a></li><li class="dropdown-item"><!----> <a href="/web/database/mysql/" class="nav-link">
+    Mysql
+  </a></li></ul></div></div><div class="nav-item"><a href="/cs/" class="nav-link">
+    Cs
+  </a></div><div class="nav-item"><a href="/others/" class="nav-link">
+    其他
+  </a></div> <a href="https://github.com/mosqu1t0/Note" target="_blank" rel="noopener noreferrer" class="repo-link">
+      GitHub
+      <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></nav>  <ul class="sidebar-links"><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading open"><span>基础</span> <span class="arrow down"></span></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/web/js/01-js的调用方式与执行顺序.html" class="sidebar-link">js 的调用方式与执行顺序</a></li><li><a href="/web/js/02-变量与运算符.html" class="sidebar-link">变量与运算符</a></li><li><a href="/web/js/03-输入与输出.html" class="sidebar-link">输入与输出</a></li><li><a href="/web/js/04-判断语句.html" class="sidebar-link">判断语句</a></li><li><a href="/web/js/05-循环语句.html" class="sidebar-link">/web/js/05-循环语句.html</a></li><li><a href="/web/js/06-对象.html" class="sidebar-link">/web/js/06-对象.html</a></li><li><a href="/web/js/07-数组.html" class="sidebar-link">数组</a></li><li><a href="/web/js/09-类.html" class="active sidebar-link">类</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/web/js/09-类.html#定义" class="sidebar-link">定义</a></li><li class="sidebar-sub-header"><a href="/web/js/09-类.html#继承" class="sidebar-link">继承</a></li><li class="sidebar-sub-header"><a href="/web/js/09-类.html#静态方法" class="sidebar-link">静态方法</a></li><li class="sidebar-sub-header"><a href="/web/js/09-类.html#静态变量" class="sidebar-link">静态变量</a></li></ul></li><li><a href="/web/js/10-事件.html" class="sidebar-link">事件</a></li><li><a href="/web/js/11-常用库.html" class="sidebar-link">常用库</a></li><li><a href="/pages/d0f2e9/" class="sidebar-link">javascriptBase</a></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="类"><a href="#类" class="header-anchor">#</a> 类</h1> <p>与 C++ 中的 <code>Class</code> 类似。但是不存在私有成员。</p> <ul><li><code>this</code> 指向类的实例。</li></ul> <h2 id="定义"><a href="#定义" class="header-anchor">#</a> 定义</h2> <div class="language-javascript extra-class"><pre class="language-javascript"><code><span class="token keyword">class</span> <span class="token class-name">Point</span> <span class="token punctuation">{</span>
+    <span class="token function">constructor</span><span class="token punctuation">(</span><span class="token parameter">x<span class="token punctuation">,</span> y</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>  <span class="token comment">// 构造函数</span>
+        <span class="token keyword">this</span><span class="token punctuation">.</span>x <span class="token operator">=</span> x<span class="token punctuation">;</span>  <span class="token comment">// 成员变量</span>
+        <span class="token keyword">this</span><span class="token punctuation">.</span>y <span class="token operator">=</span> y<span class="token punctuation">;</span>
+
+        <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">init</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+
+    <span class="token function">init</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">this</span><span class="token punctuation">.</span>sum <span class="token operator">=</span> <span class="token keyword">this</span><span class="token punctuation">.</span>x <span class="token operator">+</span> <span class="token keyword">this</span><span class="token punctuation">.</span>y<span class="token punctuation">;</span>  <span class="token comment">// 成员变量可以在任意的成员函数中定义</span>
+    <span class="token punctuation">}</span>
+
+    <span class="token function">toString</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>  <span class="token comment">// 成员函数</span>
+        <span class="token keyword">return</span> <span class="token string">'('</span> <span class="token operator">+</span> <span class="token keyword">this</span><span class="token punctuation">.</span>x <span class="token operator">+</span> <span class="token string">', '</span> <span class="token operator">+</span> <span class="token keyword">this</span><span class="token punctuation">.</span>y <span class="token operator">+</span> <span class="token string">')'</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">let</span> p <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Point</span><span class="token punctuation">(</span><span class="token number">3</span><span class="token punctuation">,</span> <span class="token number">4</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>p<span class="token punctuation">.</span><span class="token function">toString</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre></div><h2 id="继承"><a href="#继承" class="header-anchor">#</a> 继承</h2> <div class="language-javascript extra-class"><pre class="language-javascript"><code><span class="token keyword">class</span> <span class="token class-name">ColorPoint</span> <span class="token keyword">extends</span> <span class="token class-name">Point</span> <span class="token punctuation">{</span>
+    <span class="token function">constructor</span><span class="token punctuation">(</span><span class="token parameter">x<span class="token punctuation">,</span> y<span class="token punctuation">,</span> color</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">super</span><span class="token punctuation">(</span>x<span class="token punctuation">,</span> y<span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// 这里的 super 表示父类的构造函数</span>
+        <span class="token keyword">this</span><span class="token punctuation">.</span>color <span class="token operator">=</span> color<span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+
+    <span class="token function">toString</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">return</span> <span class="token keyword">this</span><span class="token punctuation">.</span>color <span class="token operator">+</span> <span class="token string">' '</span> <span class="token operator">+</span> <span class="token keyword">super</span><span class="token punctuation">.</span><span class="token function">toString</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// 调用父类的 toString()</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre></div><div class="custom-block warning"><p class="custom-block-title">WARNING</p> <ul><li><code>super</code> 这个关键字，既可以当作函数使用，也可以当作对象使用。
+<ul><li>作为函数调用时，代表父类的构造函数，且只能用在子类的构造函数之中。</li> <li><code>super</code> 作为对象时，指向父类的原型对象。</li></ul></li> <li>在子类的构造函数中，只有调用 <code>super</code> 之后，才可以使用 <code>this</code> 关键字。</li> <li>成员重名时，子类的成员会覆盖父类的成员。类似于 C++中的多态。</li></ul></div> <h2 id="静态方法"><a href="#静态方法" class="header-anchor">#</a> 静态方法</h2> <p>在成员函数前添加 <code>static</code> 关键字即可。静态方法不会被类的实例继承，只能通过类来调用。例如：</p> <div class="language-javascript extra-class"><pre class="language-javascript"><code><span class="token keyword">class</span> <span class="token class-name">Point</span> <span class="token punctuation">{</span>
+    <span class="token function">constructor</span><span class="token punctuation">(</span><span class="token parameter">x<span class="token punctuation">,</span> y</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">this</span><span class="token punctuation">.</span>x <span class="token operator">=</span> x<span class="token punctuation">;</span>
+        <span class="token keyword">this</span><span class="token punctuation">.</span>y <span class="token operator">=</span> y<span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+
+    <span class="token function">toString</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">return</span> <span class="token string">'('</span> <span class="token operator">+</span> <span class="token keyword">this</span><span class="token punctuation">.</span>x <span class="token operator">+</span> <span class="token string">', '</span> <span class="token operator">+</span> <span class="token keyword">this</span><span class="token punctuation">.</span>y <span class="token operator">+</span> <span class="token string">')'</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+
+    <span class="token keyword">static</span> <span class="token function">print_class_name</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">&quot;Point&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">let</span> p <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Point</span><span class="token punctuation">(</span><span class="token number">1</span><span class="token punctuation">,</span> <span class="token number">2</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+Point<span class="token punctuation">.</span><span class="token function">print_class_name</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+p<span class="token punctuation">.</span><span class="token function">print_class_name</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>  <span class="token comment">// 会报错</span>
+</code></pre></div><h2 id="静态变量"><a href="#静态变量" class="header-anchor">#</a> 静态变量</h2> <p>在 ES6 中，只能通过 <code>class.propname</code> 定义和访问。例如：</p> <div class="language-javascript extra-class"><pre class="language-javascript"><code><span class="token keyword">class</span> <span class="token class-name">Point</span> <span class="token punctuation">{</span>
+    <span class="token function">constructor</span><span class="token punctuation">(</span><span class="token parameter">x<span class="token punctuation">,</span> y</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">this</span><span class="token punctuation">.</span>x <span class="token operator">=</span> x<span class="token punctuation">;</span>
+        <span class="token keyword">this</span><span class="token punctuation">.</span>y <span class="token operator">=</span> y<span class="token punctuation">;</span>
+
+        Point<span class="token punctuation">.</span>cnt<span class="token operator">++</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+
+    <span class="token function">toString</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">return</span> <span class="token string">'('</span> <span class="token operator">+</span> <span class="token keyword">this</span><span class="token punctuation">.</span>x <span class="token operator">+</span> <span class="token string">', '</span> <span class="token operator">+</span> <span class="token keyword">this</span><span class="token punctuation">.</span>y <span class="token operator">+</span> <span class="token string">')'</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+
+Point<span class="token punctuation">.</span>cnt <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>
+
+<span class="token keyword">let</span> p <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Point</span><span class="token punctuation">(</span><span class="token number">1</span><span class="token punctuation">,</span> <span class="token number">2</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token keyword">let</span> q <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Point</span><span class="token punctuation">(</span><span class="token number">3</span><span class="token punctuation">,</span> <span class="token number">4</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>Point<span class="token punctuation">.</span>cnt<span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre></div></div> <footer class="page-edit"><div class="edit-link"><a href="https://github.com/mosqu1t0/Note/edit/master/docs/web/js/09-类.md" target="_blank" rel="noopener noreferrer">编辑✍🏻️</a> <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></div> <div class="last-updated"><span class="prefix">上次更新⌚️:</span> <span class="time">a few seconds ago</span></div></footer> <div class="page-nav"><p class="inner"><span class="prev">
+        ←
+        <a href="/web/js/07-数组.html" class="prev">
+          数组
+        </a></span> <span class="next"><a href="/web/js/10-事件.html">
+          事件
+        </a>
+        →
+      </span></p></div> </main></div><div class="global-ui"><!----></div></div>
+    <script src="/assets/js/app.7c6adec4.js" defer></script><script src="/assets/js/2.61776e55.js" defer></script><script src="/assets/js/99.7497b5d3.js" defer></script>
+  </body>
+</html>
